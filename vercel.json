@@ -1,15 +1,9 @@
 {
   "version": 2,
   "builds": [
-    {
-      "src": "calltracer.py",
-      "use": "@vercel/python"
-    }
+    { "src": "calltracer.py", "use": "@vercel/python" }
   ],
   "routes": [
-    {
-      "src": "/(.*)",
-      "dest": "calltracer.py"
-    }
+    { "src": "/(.*)", "dest": "calltracer.py" }
   ]
 }
